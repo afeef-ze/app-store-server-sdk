@@ -118,7 +118,7 @@ JWSTransactionDecodedPayload _$JWSTransactionDecodedPayloadFromJson(
       json['inAppOwnershipType'] as String?,
       json['isUpgraded'] as bool?,
       json['offerIdentifier'] as String?,
-      json['offerType'] as String?,
+      json['offerType'] as int?,
       json['originalPurchaseDate'] as int,
       json['originalTransactionId'] as String,
       json['productId'] as String,
